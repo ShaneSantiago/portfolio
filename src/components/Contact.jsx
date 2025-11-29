@@ -103,7 +103,6 @@ const Contact = () => {
         </motion.div>
 
         <div className="contact-content">
-          {/* Contact Info */}
           <motion.div
             className="contact-info"
             initial={{ opacity: 0, x: -50 }}
@@ -140,7 +139,6 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* WhatsApp CTA */}
             <motion.a
               href={whatsappLink}
               target="_blank"
@@ -157,7 +155,6 @@ const Contact = () => {
             </motion.a>
           </motion.div>
 
-          {/* Contact Form */}
           <motion.form
             className="contact-form glass"
             onSubmit={handleSubmit}

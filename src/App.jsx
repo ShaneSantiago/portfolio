@@ -10,7 +10,6 @@ import './App.css';
 
 function App() {
   useEffect(() => {
-    // Scroll suave para links de ancoragem
     const handleAnchorClick = (e) => {
       const href = e.target.getAttribute('href');
       if (href && href.startsWith('#')) {

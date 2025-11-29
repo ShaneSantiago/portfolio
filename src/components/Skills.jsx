@@ -66,7 +66,6 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Tech Stack Visual */}
         <motion.div
           className="tech-stack"
           initial={{ opacity: 0, y: 30 }}
@@ -75,7 +74,7 @@ const Skills = () => {
         >
           <h3 className="tech-stack-title">Tech Stack Favorito</h3>
           <div className="tech-icons">
-            {['React', 'Node.js', 'TypeScript', 'PostgreSQL', 'Next.js', 'Tailwind'].map((tech, index) => (
+            {['React', 'Node.js', 'TypeScript', 'PostgreSQL', 'React Native', 'Prisma'].map((tech, index) => (
               <motion.div
                 key={tech}
                 className="tech-icon glass"
@@ -95,4 +94,3 @@ const Skills = () => {
 };
 
 export default Skills;
-

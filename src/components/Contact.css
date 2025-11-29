@@ -25,7 +25,6 @@
   align-items: start;
 }
 
-/* Contact Info */
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -91,7 +90,6 @@ a.contact-value:hover {
   color: var(--accent-primary);
 }
 
-/* WhatsApp Button */
 .whatsapp-btn {
   display: inline-flex;
   align-items: center;
@@ -112,7 +110,6 @@ a.contact-value:hover {
   box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
 }
 
-/* Contact Form */
 .contact-form {
   padding: 40px;
   border-radius: var(--border-radius-lg);
@@ -164,7 +161,6 @@ a.contact-value:hover {
   min-height: 140px;
 }
 
-/* Form Status */
 .form-status {
   display: flex;
   align-items: center;
@@ -187,7 +183,6 @@ a.contact-value:hover {
   border: 1px solid rgba(247, 37, 133, 0.3);
 }
 
-/* Submit Button */
 .submit-btn {
   width: 100%;
   justify-content: center;
@@ -213,7 +208,6 @@ a.contact-value:hover {
   to { transform: rotate(360deg); }
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .contact-content {
     grid-template-columns: 1fr;

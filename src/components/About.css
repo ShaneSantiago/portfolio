@@ -21,7 +21,6 @@
   margin-bottom: 80px;
 }
 
-/* About Image */
 .about-text {
   position: relative;
 }
@@ -93,7 +92,6 @@
   margin-top: 4px;
 }
 
-/* About Info */
 .about-info {
   display: flex;
   flex-direction: column;
@@ -117,7 +115,6 @@
   color: var(--text-primary);
 }
 
-/* Stats */
 .about-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -162,7 +159,6 @@
   letter-spacing: 1px;
 }
 
-/* Services Grid */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -220,7 +216,6 @@
   line-height: 1.6;
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .about-content {
     grid-template-columns: 1fr;
@@ -272,4 +267,3 @@
     bottom: -30px;
   }
 }
-

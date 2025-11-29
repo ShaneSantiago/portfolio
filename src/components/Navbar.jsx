@@ -21,7 +21,6 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
 
-      // Detectar seção ativa
       const sections = navLinks.map(link => link.href.slice(1));
       for (const section of sections.reverse()) {
         const element = document.getElementById(section);
@@ -55,7 +54,6 @@ const Navbar = () => {
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >
       <div className="navbar-container">
-        {/* Logo */}
         <motion.a
           href="#home"
           className="navbar-logo"
@@ -71,7 +69,6 @@ const Navbar = () => {
           <span className="logo-bracket">/&gt;</span>
         </motion.a>
 
-        {/* Desktop Navigation */}
         <ul className="navbar-links">
           {navLinks.map((link, index) => (
             <motion.li
@@ -95,7 +92,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Mobile Menu Button */}
         <button
           className="mobile-menu-btn"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -104,7 +100,6 @@ const Navbar = () => {
           {isMobileMenuOpen ? <HiX /> : <HiMenuAlt3 />}
         </button>
 
-        {/* Mobile Menu */}
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
@@ -145,4 +140,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

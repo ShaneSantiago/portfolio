@@ -1,4 +1,3 @@
-/* App Container */
 .app {
   min-height: 100vh;
   display: flex;
@@ -9,12 +8,10 @@ main {
   flex: 1;
 }
 
-/* Smooth reveal animation for sections */
 section {
   opacity: 1;
 }
 
-/* Loading animation placeholder */
 .loading-screen {
   position: fixed;
   top: 0;
@@ -43,7 +40,6 @@ section {
   }
 }
 
-/* Page transitions */
 .page-transition-enter {
   opacity: 0;
   transform: translateY(20px);
@@ -64,13 +60,11 @@ section {
   transition: opacity 0.3s;
 }
 
-/* Focus styles for accessibility */
 *:focus-visible {
   outline: 2px solid var(--accent-primary);
   outline-offset: 2px;
 }
 
-/* Disable focus outline for mouse users */
 *:focus:not(:focus-visible) {
   outline: none;
 }

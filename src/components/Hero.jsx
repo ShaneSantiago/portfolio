@@ -26,7 +26,6 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
-      {/* Animated Background Elements */}
       <div className="hero-bg-elements">
         <div className="bg-orb bg-orb-1"></div>
         <div className="bg-orb bg-orb-2"></div>
@@ -41,18 +40,15 @@ const Hero = () => {
           initial="hidden"
           animate="visible"
         >
-          {/* Greeting */}
           <motion.p className="hero-greeting" variants={itemVariants}>
             <span className="greeting-wave">👋</span> Olá, eu sou
           </motion.p>
 
-          {/* Name */}
           <motion.h1 className="hero-name" variants={itemVariants}>
             {personalInfo.name}
             <span className="name-dot">.</span>
           </motion.h1>
 
-          {/* Role with typing effect style */}
           <motion.h2 className="hero-role" variants={itemVariants}>
             <span className="role-bracket">&lt;</span>
             <span className="role-text">{personalInfo.role}</span>
@@ -60,12 +56,10 @@ const Hero = () => {
             <span className="cursor">|</span>
           </motion.h2>
 
-          {/* Description */}
           <motion.p className="hero-description" variants={itemVariants}>
             {personalInfo.description}
           </motion.p>
 
-          {/* CTA Button */}
           <motion.div className="hero-buttons" variants={itemVariants}>
             <a href="#projects" className="btn-primary">
               Ver Projetos
@@ -74,7 +68,6 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* Hero Visual */}
         <motion.div
           className="hero-visual"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -93,7 +86,6 @@ const Hero = () => {
                 className="profile-image"
               />
             </div>
-            {/* Floating Tech Icons */}
             <div className="floating-icons">
               <span className="floating-icon icon-react">⚛️</span>
               <span className="floating-icon icon-js">🟨</span>
@@ -104,7 +96,6 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Scroll Indicator */}
       <motion.div
         className="scroll-indicator"
         initial={{ opacity: 0 }}

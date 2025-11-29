@@ -30,7 +30,6 @@ const About = () => {
         </motion.div>
 
         <div className="about-content">
-          {/* About Text */}
           <motion.div
             className="about-text"
             initial={{ opacity: 0, x: -50 }}
@@ -53,7 +52,6 @@ const About = () => {
             </div>
           </motion.div>
 
-          {/* About Info */}
           <motion.div
             className="about-info"
             initial={{ opacity: 0, x: 50 }}
@@ -66,7 +64,6 @@ const About = () => {
               ))}
             </div>
 
-            {/* Stats */}
             <div className="about-stats">
               {aboutMe.stats.map((stat, index) => (
                 <motion.div
@@ -84,7 +81,6 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* Services */}
         <motion.div
           className="services-grid"
           initial={{ opacity: 0, y: 50 }}
@@ -114,4 +110,3 @@ const About = () => {
 };
 
 export default About;
-

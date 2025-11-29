@@ -1,7 +1,3 @@
-// =============================================
-// DADOS DO PORTFÓLIO - EDITE AQUI SUAS INFORMAÇÕES
-// =============================================
-
 export const personalInfo = {
   name: "Shane Santiago",
   role: "Desenvolvedor Full Stack",
@@ -20,7 +16,7 @@ export const aboutMe = {
     "Quando não estou codando, você pode me encontrar explorando novas tecnologias, contribuindo para projetos ou aprendendo algo novo."
   ],
   stats: [
-    { number: "10+", label: "Projetos Concluídos" },
+    { number: "50+", label: "Projetos Concluídos" },
     { number: "3+", label: "Anos de Experiência" },
     { number: "20+", label: "Clientes Satisfeitos" },
     { number: "100%", label: "Dedicação" },

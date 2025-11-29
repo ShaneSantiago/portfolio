@@ -14,14 +14,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          {/* Logo */}
           <div className="footer-logo">
             <span className="logo-bracket">&lt;</span>
             <span className="logo-text">{personalInfo.name.split(' ')[0]}</span>
             <span className="logo-bracket">/&gt;</span>
           </div>
 
-          {/* Copyright */}
           <div className="footer-copyright">
             <p>
               © {currentYear} {personalInfo.name}. Feito com{' '}
@@ -30,7 +28,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Scroll to Top */}
         <motion.button
           className="scroll-top-btn"
           onClick={scrollToTop}
